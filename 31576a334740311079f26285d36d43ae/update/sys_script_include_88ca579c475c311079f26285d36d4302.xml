@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_945729_lmss.lmsAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>lmsAjax</name>
+        <script><![CDATA[var lmsAjax = Class.create();
+lmsAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getDateDiff: function() {
+        var d1 = new GlideDate();
+        d1.setDisplayValue(this.getParameter('sysparm_start'));
+        var d2 = new GlideDate();
+        d2.setDisplayValue(this.getParameter('sysparm_end'));
+
+        var duration = GlideDate.subtract(d1, d2);
+        return duration.getNumericValue();
+    },
+
+    getLeaveBucket: function() {
+        var leaveDetails = {};
+        //gs.addInfoMessage('inside getleave function 01', 'ISL-LMS15');
+        var emp = this.getParameter('sysparm_user');
+        var l_type = this.getParameter('sysparm_leavetype');
+        //gs.addInfoMessage('user combo:' + emp + '-' + xyz);
+
+        var gr = new GlideRecordSecure('x_945729_lmss_leave_bucket');
+        gr.addQuery('employee', '=', emp.toString());
+        gr.addQuery('leave_type', '=', l_type.toString());
+        gr.query();
+        //gs.addInfoMessage('just queried 02 --> ' + gr.getRowCount(), 'ISL-LMS23');
+        if (gr.next()) {
+            //gs.addInfoMessage('inside IF 03', 'ISL-LMS25');
+            //var leaveDetails = {};
+            leaveDetails.accrued = '' + gr.accrued;
+            //gs.addInfoMessage('accrued: ' + gr.accrued, 'ISL-LMS28');
+            leaveDetails.balance = '' + gr.balance;
+            leaveDetails.taken = '' + gr.taken;
+
+        } else {
+            leaveDetails.accrued = 0;
+            //gs.addInfoMessage('accrued: ' + gr.accrued, 'ISL-LMS28');
+            leaveDetails.balance = 0;
+            leaveDetails.taken = 0;
+        }
+        return JSON.stringify(leaveDetails);
+
+    },
+
+
+
+
+    type: 'lmsAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Sivamani</sys_created_by>
+        <sys_created_on>2023-07-24 05:09:45</sys_created_on>
+        <sys_id>88ca579c475c311079f26285d36d4302</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>lmsAjax</sys_name>
+        <sys_package display_value="Leave Management Systems" source="x_945729_lmss">31576a334740311079f26285d36d43ae</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Leave Management Systems">31576a334740311079f26285d36d43ae</sys_scope>
+        <sys_update_name>sys_script_include_88ca579c475c311079f26285d36d4302</sys_update_name>
+        <sys_updated_by>Sivamani</sys_updated_by>
+        <sys_updated_on>2023-07-25 04:27:22</sys_updated_on>
+    </sys_script_include>
+</record_update>

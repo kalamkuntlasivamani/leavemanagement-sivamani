@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="3ae8a6dc4798311079f26285d36d43ce" sys_domain="global" table="x_945729_lmss_leave_bucket" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_name</element>
+            <position>0</position>
+            <sys_created_by>Sivamani</sys_created_by>
+            <sys_created_on>2023-07-24 01:30:13</sys_created_on>
+            <sys_id>f449e61047d8311079f26285d36d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_945729_lmss_leave_bucket" sys_domain="global" view="Default view">3ae8a6dc4798311079f26285d36d43ce</sys_ui_section>
+            <sys_updated_by>Sivamani</sys_updated_by>
+            <sys_updated_on>2023-07-24 01:30:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_year_balance</element>
+            <position>1</position>
+            <sys_created_by>Sivamani</sys_created_by>
+            <sys_created_on>2023-07-24 01:30:13</sys_created_on>
+            <sys_id>7849e61047d8311079f26285d36d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_945729_lmss_leave_bucket" sys_domain="global" view="Default view">3ae8a6dc4798311079f26285d36d43ce</sys_ui_section>
+            <sys_updated_by>Sivamani</sys_updated_by>
+            <sys_updated_on>2023-07-24 01:30:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>leave_type</element>
+            <position>2</position>
+            <sys_created_by>Sivamani</sys_created_by>
+            <sys_created_on>2023-07-24 01:30:13</sys_created_on>
+            <sys_id>f849e61047d8311079f26285d36d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_945729_lmss_leave_bucket" sys_domain="global" view="Default view">3ae8a6dc4798311079f26285d36d43ce</sys_ui_section>
+            <sys_updated_by>Sivamani</sys_updated_by>
+            <sys_updated_on>2023-07-24 01:30:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>Sivamani</sys_created_by>
+            <sys_created_on>2023-07-24 01:30:13</sys_created_on>
+            <sys_id>7c49e61047d8311079f26285d36d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_945729_lmss_leave_bucket" sys_domain="global" view="Default view">3ae8a6dc4798311079f26285d36d43ce</sys_ui_section>
+            <sys_updated_by>Sivamani</sys_updated_by>
+            <sys_updated_on>2023-07-24 01:30:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>accrued</element>
+            <position>4</position>
+            <sys_created_by>Sivamani</sys_created_by>
+            <sys_created_on>2023-07-24 01:30:13</sys_created_on>
+            <sys_id>fc49e61047d8311079f26285d36d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_945729_lmss_leave_bucket" sys_domain="global" view="Default view">3ae8a6dc4798311079f26285d36d43ce</sys_ui_section>
+            <sys_updated_by>Sivamani</sys_updated_by>
+            <sys_updated_on>2023-07-24 01:30:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>taken</element>
+            <position>5</position>
+            <sys_created_by>Sivamani</sys_created_by>
+            <sys_created_on>2023-07-24 01:30:13</sys_created_on>
+            <sys_id>7049e61047d8311079f26285d36d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_945729_lmss_leave_bucket" sys_domain="global" view="Default view">3ae8a6dc4798311079f26285d36d43ce</sys_ui_section>
+            <sys_updated_by>Sivamani</sys_updated_by>
+            <sys_updated_on>2023-07-24 01:30:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>balance</element>
+            <position>6</position>
+            <sys_created_by>Sivamani</sys_created_by>
+            <sys_created_on>2023-07-24 01:30:13</sys_created_on>
+            <sys_id>f049e61047d8311079f26285d36d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_945729_lmss_leave_bucket" sys_domain="global" view="Default view">3ae8a6dc4798311079f26285d36d43ce</sys_ui_section>
+            <sys_updated_by>Sivamani</sys_updated_by>
+            <sys_updated_on>2023-07-24 01:30:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee</element>
+            <position>7</position>
+            <sys_created_by>Sivamani</sys_created_by>
+            <sys_created_on>2023-07-24 16:06:38</sys_created_on>
+            <sys_id>36d13dec4794711079f26285d36d438c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_945729_lmss_leave_bucket" sys_domain="global" view="Default view">3ae8a6dc4798311079f26285d36d43ce</sys_ui_section>
+            <sys_updated_by>Sivamani</sys_updated_by>
+            <sys_updated_on>2023-07-24 16:06:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_945729_lmss_leave_bucket</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Sivamani</sys_created_by>
+            <sys_created_on>2023-07-24 01:28:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ae8a6dc4798311079f26285d36d43ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_945729_lmss_leave_bucket</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Leave Management Systems" source="x_945729_lmss">31576a334740311079f26285d36d43ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Leave Management Systems">31576a334740311079f26285d36d43ae</sys_scope>
+            <sys_update_name>sys_ui_section_3ae8a6dc4798311079f26285d36d43ce</sys_update_name>
+            <sys_updated_by>Sivamani</sys_updated_by>
+            <sys_updated_on>2023-07-24 01:28:44</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
